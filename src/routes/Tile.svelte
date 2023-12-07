@@ -1,6 +1,6 @@
 <script>
-	import github from '$lib/images/github.svg';
-	import link_img from '$lib/images/link.svg';
+	import Github from './Github.svelte';
+	import Link from './Link.svelte';
 
 	export let title = "Title";
 	export let summary = "A short summary of this tile.";
@@ -20,12 +20,12 @@
 	<footer>
 		{#if link != ""}
 		<a href={link}>
-			<img src={link_img} alt="link to project" height="20vh" />
+			<Link />
 		</a>
 		{/if}
 		{#if source != ""}
 		<a href={source}>
-			<img src={github} alt="GitHub" height="20vh" />
+			<Github />
 		</a>
 		{/if}
 	</footer>
@@ -39,5 +39,9 @@
 }
 footer {
 	margin: 8px;
+}
+.tile a {
+	display: inline-block;
+	min-height: 1em;
 }
 </style>
