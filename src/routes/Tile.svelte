@@ -18,12 +18,12 @@
 	{summary}
 
 	<footer>
-		{#if link != ""}
+		{#if link}
 		<a href={link}>
 			<Link />
 		</a>
 		{/if}
-		{#if source != ""}
+		{#if source}
 		<a href={source}>
 			<Github />
 		</a>
