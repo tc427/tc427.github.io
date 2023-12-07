@@ -22,6 +22,21 @@
 		title="Flexible fitting for cryo-EM"
 		summary="We develop statistical models to represent the relation between structural variations in biomolecular complexes and the observed cryo-EM density."
 	/>
+	<Tile
+		title="HiRE-RNA coarse-grain model"
+		summary="HiRE-RNA is a coarse grain nucleic acid forcefield, develop to accurately reproduce the interactions between nucleobases that drives nucleic acid folding. Work with Samuela Pasquali. Parametrisation with Yoann Laurin."
+		publication="https://pubs.acs.org/doi/10.1021/jp400786b"
+	/>
+	<Tile
+		title="Interpolation with Network Model"
+		summary=" Interpolation with Network Model is a small program that computes an interpolation between two protein structures by moving along low-frequency normal modes computed on a structure, towards the final structure."
+		source="https://github.com/tc427/inm"
+	/>
+	<Tile
+		title="Webnm@"
+		summary="Webnm@ is an online tool to compute, compare, and analyse normal modes for protein structures."
+		link="http://apps.cbu.uib.no/webnma3"
+	/>
 </div>
 
 </main>
