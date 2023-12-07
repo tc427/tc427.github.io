@@ -11,7 +11,8 @@
 		<a href="./">Home</a>
 		<a href="./research">Research</a>
 		<a href="./publications">Publications</a>
-		<a href="./CV">People</a>
+		<a href="./people">People</a>
+		<a href="./CV">CV</a>
 		<br>
 	</nav>
 
