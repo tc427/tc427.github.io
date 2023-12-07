@@ -24,8 +24,21 @@
 	/>
 	<Tile
 		title="HiRE-RNA coarse-grain model"
-		summary="HiRE-RNA is a coarse grain nucleic acid forcefield, develop to accurately reproduce the interactions between nucleobases that drives nucleic acid folding. Work with Samuela Pasquali. Parametrisation with Yoann Laurin."
+		summary=" With my PhD supervisor Samuela Pasquali, we worked on developing the HiRE-RNA forcefield to represent complex interactions in RNA and DNA, and create a model that could truly represent the full range of possible RNA structures, without external constraints that do not correspond to a biophysical force. This 'bottom-up' approach could then be combined with experimental restraints, as obtainable from cryo-EM, SAXS, etc...  ."
 		publication="https://pubs.acs.org/doi/10.1021/jp400786b"
+	/>
+	<Tile
+		title="Protein and nucleic acid folding: disorder and ensembles"
+		summary="Work on G-quadruplexes with David Wales, Debayan Chakraborty, Liuba Mazzanti, Jiří Šponer, Samuela Pasquali, Philippe Derreumaux. We obtained pathways between common states using MD and pathsampling. "
+	/>
+	<Tile
+		title="Protein and nucleic acid folding: disorder and ensembles"
+		summary="I have studied RNA, DNA and protein folding using different models. I have been particularly interested in metastable systems, such as riboswitches, G-quadruplexes, and co-folding proteins. I am keen on delving further into the assembly of larger biomolecular complexes. "
+	/>
+	<Tile
+		title="SELEX analysis and simulation"
+		summary="Trying to understand how SELEX works, what can we tell about the obtained sequence, the likeliness of them binding to the target.  Work with Lucy Colwell, Alaa Abdel-Latif, and Centauri (Helen Lavender, Alex Martin). "
+		source="https://github.com/tc427/SELEX_Sim_v0.3"
 	/>
 	<Tile
 		title="Interpolation with Network Model"
