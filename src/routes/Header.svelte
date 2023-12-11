@@ -10,6 +10,7 @@
 	<nav>
 		<a href="./">Home</a>
 		<a href="./research">Research</a>
+		<a href="./projects">Projects</a>
 		<a href="./publications">Publications</a>
 		<a href="./people">People</a>
 		<a href="./CV">CV</a>
