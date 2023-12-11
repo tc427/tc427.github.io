@@ -1,7 +1,12 @@
 <script>
 	import Publication from './Publication.svelte';
 	import { publications } from '../publications.js';
+	import { browser as isThisaBrowser } from '$app/environment';
 </script>
+
+{#if isThisaBrowser}
+<script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+{/if}
 
 <main>
 <h1>Publications</h1>

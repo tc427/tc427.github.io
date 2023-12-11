@@ -47,6 +47,10 @@
 			<img src={link_img} alt="publication link" height="20vh" />
 		</a>
 		{/if}
+		{#if DOI}
+			<span class="__dimensions_badge_embed__" data-doi="{DOI}" data-style="small_circle"></span>
+		{/if}
+
 	</footer>
 </section>
 
@@ -59,8 +63,11 @@ summary {
 	color: var(--color-theme-1);
 }
 .tile {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 	background-color: rgba(0, 0, 0, 0.1);
-	padding: 12px;
+	padding: 0px 12px;
 	margin: 12px;
 	border-radius: 8px;
 	position: relative;
@@ -69,12 +76,18 @@ summary {
 	display: inline;
 }
 .tile footer {
-	position: absolute;
 	padding: 5px;
 	margin: 5px;
-	bottom: 0;
+}
+footer {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
 }
 footer a {
-margin: 8px;
+	margin: auto 8px;
+}
+.__dimensions_badge_embed__ {
+	display: inline;
 }
 </style>
