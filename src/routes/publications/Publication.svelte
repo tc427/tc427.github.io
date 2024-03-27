@@ -10,6 +10,7 @@
 	export let link = "";
 	export let publication = "";
 	export let DOI = "";
+
 	let open = false;
 </script>
 
