@@ -12,7 +12,7 @@
 	/>
 	<Tile
 		title="Hierarchical coarse-grain modelling"
-		summary="we investigate how coarse-grain mappings at different resolutions relate to one another and run simulations on biomolecular systems using those simplified models."
+		summary=" We investigate how coarse-grain mappings at different resolutions relate to one another and run simulations on biomolecular systems using those simplified models. We use graph representations and graph neural networks to automate the coarse-graining of proteins at varying levels of description and run molecular dynamics simulations using these simplified models with the aim of striking a balance between accuracy and computational cost."
 	/>
 	<Tile
 		title="Conformational sampling of protein structure prediction"
