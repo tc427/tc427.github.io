@@ -12,6 +12,7 @@
 		<a href="./research">Research</a>
 		<a href="./projects">Projects</a>
 		<a href="./publications">Publications</a>
+		<a href="./teaching">Teaching</a>
 		<a href="./CV">CV</a>
 		<br>
 	</nav>
