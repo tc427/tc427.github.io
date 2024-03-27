@@ -28,7 +28,7 @@
 	{#each publications as publication}
 		<li>
 			{publication.Title}
-			doi: {publication.DOI}
+			doi: <a href="http://doi.org/{publication.DOI}">{publication.DOI}</a>
 		</li>
 	{/each}
 </ul>
