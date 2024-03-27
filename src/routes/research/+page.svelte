@@ -8,11 +8,11 @@
 <div class="projects">
 	<Tile
 		title="Understand dynamic ensembles of biomolecular assemblies"
-		summary="Use methods that inherently represent ensembles of models."
+		summary="Use methods that inherently represent ensembles of models. Use them to understand molecular flexibility and dynamics."
 	/>
 	<Tile
 		title="Cellular-scale molecular dynamics"
-		summary="Develop novel methods to tackle large assemblies."
+		summary="Develop novel methods to tackle large assemblies. Automated, scaling up of simulations to the meso-scale."
 	/>
 	<Tile
 		title="Integrated biophysical modelling: end-to-end representations"
